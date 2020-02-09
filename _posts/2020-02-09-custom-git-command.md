@@ -21,6 +21,6 @@ function co() {
 }
 ```
 
-### *Finsh!*
+### *Finish!*
 
 [yungik]: https://yungik.github.io/

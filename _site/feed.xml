@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>yi&#39;s</title>
+    <description>Let&#39;s be the best
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Feb 2020 00:28:00 +0900</pubDate>
-    <lastBuildDate>Sun, 09 Feb 2020 00:28:00 +0900</lastBuildDate>
+    <link>https://yungik.github.io/</link>
+    <atom:link href="https://yungik.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 09 Feb 2020 22:25:16 +0900</pubDate>
+    <lastBuildDate>Sun, 09 Feb 2020 22:25:16 +0900</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Git command customizing</title>
+        <description>&lt;h1 id=&quot;how-to-customize-git-command-in-bash&quot;&gt;How to customize git command in bash?&lt;/h1&gt;
+&lt;p&gt;I wanted a shorter commands and default actions.&lt;/p&gt;
+
+&lt;p&gt;for example:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;co&lt;/code&gt; -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout master&lt;/code&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;co -t develop&lt;/code&gt; -&amp;gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -t develop&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Add this code to your .bashrc(Linux) or .bash_profile(MacOS)&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;DEFAULT_BRANCH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;master&#39;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function &lt;/span&gt;co&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; 0 &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then &lt;/span&gt;git checkout &lt;span class=&quot;nv&quot;&gt;$DEFAULT_BRANCH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;else &lt;/span&gt;git checkout &lt;span class=&quot;nv&quot;&gt;$*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;finsh&quot;&gt;&lt;em&gt;Finsh!&lt;/em&gt;&lt;/h3&gt;
+
+</description>
+        <pubDate>Sun, 09 Feb 2020 21:50:00 +0900</pubDate>
+        <link>https://yungik.github.io/tech/2020/02/09/custom-git-command.html</link>
+        <guid isPermaLink="true">https://yungik.github.io/tech/2020/02/09/custom-git-command.html</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
     
       <item>
         <title>I started my blog using Github</title>
@@ -22,8 +54,8 @@
 
 </description>
         <pubDate>Sat, 08 Feb 2020 22:45:00 +0900</pubDate>
-        <link>http://yourdomain.com/etc/2020/02/08/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/etc/2020/02/08/welcome-to-jekyll.html</guid>
+        <link>https://yungik.github.io/etc/2020/02/08/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://yungik.github.io/etc/2020/02/08/welcome-to-jekyll.html</guid>
         
         
         <category>etc</category>

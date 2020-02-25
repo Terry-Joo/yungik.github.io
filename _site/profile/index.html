@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Git command customizing</title>
-  <meta name="description" content="How to customize git command in bash?I wanted a shorter commands and default actions.">
+  <title>Profile</title>
+  <meta name="description" content="Let's be the best
+">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://yungik.github.io/tech/2020/02/09/custom-git-command.html">
+  <link rel="canonical" href="https://yungik.github.io/profile/">
   <link rel="alternate" type="application/rss+xml" title="yi's" href="https://yungik.github.io/feed.xml">
 </head>
 
@@ -35,7 +36,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/About/">About Me</a>
+          <a class="page-link" href="/profile/">Profile</a>
           
         
           
@@ -54,33 +55,42 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Git command customizing</h1>
-    <p class="post-meta"><time datetime="2020-02-09T21:50:00+09:00" itemprop="datePublished">Feb 9, 2020</time></p>
+    <h1 class="post-title">Profile</h1>
   </header>
 
-  <div class="post-content" itemprop="articleBody">
-    <h1 id="how-to-customize-git-command-in-bash">How to customize git command in bash?</h1>
-<p>I wanted a shorter commands and default actions.</p>
+  <div class="post-content">
+    <h1 id="about-me">About me</h1>
+<p>I live in Seoul, Korea</p>
 
-<p>for example:</p>
-<blockquote>
-  <p><code class="highlighter-rouge">co</code> -&gt; <code class="highlighter-rouge">git checkout master</code></p>
-
-  <p><code class="highlighter-rouge">co -t develop</code> -&gt; <code class="highlighter-rouge">git checkout -t develop</code></p>
-</blockquote>
-
-<p>Add this code to your .bashrc(Linux) or .bash_profile(MacOS)</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">export </span><span class="nv">DEFAULT_BRANCH</span><span class="o">=</span><span class="s1">'master'</span>
-<span class="k">function </span>co<span class="o">()</span> <span class="o">{</span>
-        <span class="k">if</span> <span class="o">[</span> <span class="nv">$# </span><span class="o">==</span> 0 <span class="o">]</span><span class="p">;</span> <span class="k">then </span>git checkout <span class="nv">$DEFAULT_BRANCH</span><span class="p">;</span>
-        <span class="k">else </span>git checkout <span class="nv">$*</span><span class="p">;</span> <span class="k">fi</span>
-<span class="o">}</span>
-</code></pre></div></div>
-
-<h3 id="finish"><em>Finish!</em></h3>
+<table>
+  <thead>
+    <tr>
+      <th>Languages</th>
+      <th>First Name</th>
+      <th>Last name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Korean</td>
+      <td>영익</td>
+      <td>주</td>
+    </tr>
+    <tr>
+      <td>English</td>
+      <td>Yungik</td>
+      <td>Joo</td>
+    </tr>
+    <tr>
+      <td>Chiness</td>
+      <td>永益</td>
+      <td>朱</td>
+    </tr>
+  </tbody>
+</table>
 
 
   </div>

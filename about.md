@@ -1,15 +1,100 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Me
+permalink: /About/
 ---
+# Address
+Songpa-gu, Seoul, Republic of Korea
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+---
+# Position
+Software Enginner, Back-end Enginner
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+---
+# Languages
+**Korean**, Chiness, English
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+---
+# Name
+
+Korean: 주영익
+
+English: Yungik Joo
+
+汉语: 朱永益
+
+---
+# Education
+## SungKongHoe University
+- Glocal IT
+- Department of Chinese Language and Chinese
+
+---
+# Work for
+
+
+| Company | Term |
+|---------|------|
+| CHEXCAR | Feb. 2019 ~ Jul. 2019 |
+| Glocalize inc. | Aug. 2019 ~ Now |
+
+---
+# Skills
+## Python
+- `Django`
+    - `drf`(Django Rest Framework)
+    - `swagger`
+    - `allauth`
+    - `dbview`
+    - `import-export`
+    - ORM
+    - Template Engin
+    - CMS(Django Admin)
+    - etc.
+- `pandas`
+- `openpyxl`
+- `plotly`
+- `flask`
+- with `.so`
+- poetry
+
+## Java
+- android
+    - `Gson`
+    - `butterknife`
+    - `MultiDex`
+    - `Canvas` & `Paint`
+    - with `.smali`
+    - with `.so`
+    - SQLite(embedded DB)
+    - Reverse Enginnering
+    - etc.
+- spring(spring boot & spring MVC)
+    - Maintenance only
+
+## JavaScript
+  - GAS(Google Apps Script)
+  - `jQuery`
+      - `querySelector`
+      - `ajax`
+      - `sortable`
+  - `node.js`
+    - `nestjs`(TypeScript)
+    - `react`
+    - `vue`
+    - `strapi`
+    - `express.js`
+
+## AWS
+- EC2
+- Elastic Beans Talk
+- S3
+- RDS
+- IAM
+- Route53
+
+## DBMS
+- MySQL
+- PostgreSQL
+- SQLite
+- MongoDB(with `strapi`)

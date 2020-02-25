@@ -145,6 +145,12 @@ pre {
     fill: #828282; }
 
 /**
+* table
+*/
+table, th, td {
+  border: 1px solid #eef; }
+
+/**
  * Site header
  */
 .site-header {
